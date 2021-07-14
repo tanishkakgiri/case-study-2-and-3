@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Case Study</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playball&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Reggae+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Days+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+
+
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <center>
+
+            <div class="col-xs-12 header">
+                <h1>Case Study
+                  <img src="logo3.png">
+                </h1>
+              </div>
+             &nbsp;
+             <div class="container">
+                <h2>Test Item 1</h2>
+                <!-- Trigger the modal with a button -->
+                <div class="preview">
+                    <img src="bottle1.jpg" alt="Snow">
+                    <br> <br>
+                    <button type="button" class="btn btn-default" data-toggle="modal" data-target="#modal1" >Expand</button>
+                  </div>
+                <!-- Modal -->
+                <div class="modal fade" id="modal1" role="dialog">
+                  <div class="modal-dialog ">
+                  
+                    <!-- Modal content-->
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title" style="font-size: 25px;font-family: 'Reggae One', cursive;color: blue;">Test Item 1: </h4>
+                      </div>
+                      &nbsp;
+                      <div class="modal-img">
+                            <img src="bottle1.jpg">
+                      </div>
+                      &nbsp;
+                      <div class="contents">
+                      <div class="modal-body">
+                        
+                        <p style="font-size: 20px;font-family: 'Days One', sans-serif; color: rgb(9, 252, 240);">Wolfram Alpha Prediction:</p>
+                        
+                        <br>
+                        <b style="font-family: 'Special Elite', cursive;font-weight:bold;letter-spacing: 1.5px; color: rgb(11, 54, 1);font-size: 19px;border:2px solid;border-radius:0px; padding:10px;">
+                            Vials
+                        </b>
+                      </div>
+                      
+                      <div class="modal-body">
+                        <p style="font-size: 20px;font-family: 'Days One', sans-serif; color: rgb(9, 252, 240);">RecogSmart Prediction:</p>
+                        <br>
+                        <b style="font-family: 'Special Elite', cursive;font-weight:bold;letter-spacing: 1.5px;color: rgb(11, 54, 1);font-size: 19px;border:2px solid;border-radius:0px; padding:10px;">
+                            Water Bottle
+                        </b>
+                        
+                        <br>
+                      </div>
+                      <div>
+                        <p style="font-family: 'Bebas Neue', cursive;font-weight: 900; color:black;font-size: 20px;">RecogSmart is more accurate here.</p>
+                      </div>
+                      <div class="modal-footer">
+
+                        <button type="button" class="btn btn-default" data-dismiss="modal" style="font-family: 'Lobster Two', cursive;font-weight:bolder;">Close</button>
+                      </div>
+                    </div>
+                    </div>
+                    
+                  </div>
+                </div>
+                
+              </div>
+              <br> <br>
+              <div class="container">
+                <h2>Test Item 2</h2>
+                <div class="preview">
+                    <img src="phone.jpg" alt="Snow">
+                   <br> <br>
+                    <button type="button" class="btn btn-default" data-toggle="modal" data-target="#modal2" >Expand</button>
+                  </div>
+                <div class="modal fade" id="modal2" role="dialog">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title" style="font-size: 25px;font-family: 'Reggae One', cursive;color: blue;">Test Item 2: </h4>
+                      </div>
+                      &nbsp;
+                      <div class="modal-img">
+                            <img src="phone.jpg">
+                      </div>
+                      &nbsp;
+                      
+                      <div class="contents">
+                      <div class="modal-body">
+                        <p style="font-size: 20px;font-family: 'Days One', sans-serif; color: rgb(9, 252, 240);">Wolfram Alpha Prediction:</p>
+                        
+                        <br>
+                        <b style="font-family: 'Special Elite', cursive;font-weight:bold;letter-spacing: 1.5px; color: rgb(11, 54, 1);font-size: 19px;border:2px solid black;border-radius:0px; padding:10px;">
+                          Switch
+                        </b>
+                      </div>
+                      
+                      <div class="modal-body">
+                        <p style="font-size: 20px;font-family: 'Days One', sans-serif; color: rgb(9, 252, 240);">RecogSmart Prediction:</p>
+                        <br>
+                        <b style="font-family: 'Special Elite', cursive;font-weight:bold;letter-spacing: 1.5px;color: rgb(11, 54, 1);font-size: 19px;border:2px solid black;border-radius:0px; padding:10px;">
+                            Apple iPhone
+                        </b>
+                        
+                        <br>
+                      </div>
+                      
+                      <div>
+                        <p style="font-family: 'Bebas Neue', cursive;font-weight: 900; color:black;font-size: 20px;">RecogSmart is more accurate here.</p>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal" style="font-family: 'Lobster Two', cursive;font-weight:bolder;">Close</button>
+                      </div>
+                    </div>
+                    </div>
+                    
+                  </div>
+                </div>
+              </div>
+              <br> <br>
+              <div class="container">
+                <h2>Test Item 3</h2>
+                <div class="preview" style="color: black;">
+                    <img src="tubelight.jpg" alt="Snow">
+                    <br> <br>
+                    <button type="button" class="btn btn-default" data-toggle="modal" data-target="#modal3" >Expand</button>
+                  </div>
+                
+                <div class="modal fade" id="modal3" role="dialog">
+                  <div class="modal-dialog">
+                  
+                    
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title" style="font-size: 25px;font-family: 'Reggae One', cursive;color: blue;">Test Item 3: </h4>
+                      </div>
+                      &nbsp;
+                      <div class="modal-img">
+                            <img src="tubelight.jpg">
+                      </div>
+                      &nbsp;
+                      
+                      <div class="contents">
+                      <div class="modal-body">
+                        <p style="font-size: 20px;font-family: 'Days One', sans-serif; color: rgb(9, 252, 240);">Wolfram Alpha Prediction:</p>
+                        
+                        <br>
+                        <b style="font-family: 'Special Elite', cursive;font-weight:bold;letter-spacing: 1.5px; color: rgb(11, 54, 1);font-size: 19px;border:2px solid black;border-radius:0px; padding:10px;">
+                          Fluorescent lamp
+                        </b>
+                      </div>
+                      
+                      <div class="modal-body">
+                        <p style="font-size: 20px;font-family: 'Days One', sans-serif; color: rgb(9, 252, 240);">RecogSmart Prediction:</p>
+                        <br>
+                        <b style="font-family: 'Special Elite', cursive;font-weight:bold;letter-spacing: 1.5px;color: rgb(11, 54, 1);font-size: 19px;border:2px solid black;border-radius:0px; padding:10px;">
+                            Stick
+                        </b>
+                        <br>
+                      </div>
+                      <div>
+                        <p style="font-family: 'Bebas Neue', cursive;font-weight: 900; color:black;font-size: 20px;">Wolfram Alpha is more accurate here.</p>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal" style="font-family: 'Lobster Two', cursive;font-weight:bolder;">Close</button>
+                      </div>
+                    </div>
+                    </div>
+                    
+                  </div>
+                </div>
+              </div>
+              <br> <br>
+              <div class="container">
+                <h2>Test Item 4</h2>
+                <div class="preview" style="color: black;">
+                    <img src="bird.jpg" alt="Snow">
+                    <br> <br>
+                    <button type="button" class="btn btn-default" data-toggle="modal" data-target="#modal4" >Expand</button>
+                  </div>
+                
+                <div class="modal fade" id="modal4" role="dialog">
+                  <div class="modal-dialog">
+                  
+                    
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title" style="font-size: 25px;font-family: 'Reggae One', cursive;color: blue;">Test Item 4: </h4>
+                      </div>
+                      &nbsp;
+                      <div class="modal-img">
+                            <img src="bird.jpg">
+                      </div>
+                      &nbsp;
+                      
+                      <div class="contents">
+                      <div class="modal-body">
+                        <p style="font-size: 20px;font-family: 'Days One', sans-serif; color: rgb(9, 252, 240);">Wolfram Alpha Prediction:</p>
+                        
+                        <br>
+                        <b style="font-family: 'Special Elite', cursive;font-weight:bold;letter-spacing: 1.5px; color: rgb(11, 54, 1);font-size: 19px;border:2px solid black;border-radius:0px; padding:10px;">
+                          Eurasian kingfisher
+                        </b>
+                      </div>
+                      
+                      <div class="modal-body">
+                        <p style="font-size: 20px;font-family: 'Days One', sans-serif; color: rgb(9, 252, 240);">RecogSmart Prediction:</p>
+                        <br>
+                        <b style="font-family: 'Special Elite', cursive;font-weight:bold;letter-spacing: 1.5px;color: rgb(11, 54, 1);font-size: 19px;border:2px solid black;border-radius:0px; padding:10px;">
+                            Bird
+                        </b>
+                        <br>
+                      </div>
+                      <br>
+                      <div>
+                        <p style="font-family: 'Bebas Neue', cursive;font-weight: 900; color:black;font-size: 20px;">Wolfram Alpha is more accurate here.</p>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal" style="font-family: 'Lobster Two', cursive;font-weight:bolder;">Close</button>
+                      </div>
+                    </div>
+                    </div>
+                    
+                  </div>
+                </div>
+              </div>
+              <br> <br>
+              <div>
+
+              <div class="container">
+                <h2>Test Item 5</h2>
+                <div class="preview" style="color: black;">
+                    <img src="lionCub.jpg" alt="Snow">
+                    <br> <br>
+                    <button type="button" class="btn btn-default" data-toggle="modal" data-target="#modal5" >Expand</button>
+                  </div>
+                
+                <div class="modal fade" id="modal5" role="dialog">
+                  <div class="modal-dialog">
+                  
+                    
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title" style="font-size: 25px;font-family: 'Reggae One', cursive;color: blue;">Test Item 5: </h4>
+                      </div>
+                      &nbsp;
+                      <div class="modal-img">
+                            <img src="lionCub.jpg">
+                      </div>
+                      &nbsp;
+                      
+                      <div class="contents">
+                      <div class="modal-body">
+                        <p style="font-size: 20px;font-family: 'Days One', sans-serif; color: rgb(9, 252, 240);">Wolfram Alpha Prediction:</p>
+                        
+                        <br>
+                        <b style="font-family: 'Special Elite', cursive;font-weight:bold;letter-spacing: 1.5px; color: rgb(11, 54, 1);font-size: 19px;border:2px solid black;border-radius:0px; padding:10px;">
+                            Lion
+                        </b>
+                      </div>
+                      
+                      <div class="modal-body">
+                        <p style="font-size: 20px;font-family: 'Days One', sans-serif; color: rgb(9, 252, 240);">RecogSmart Prediction:</p>
+                        <br>
+                        <b style="font-family: 'Special Elite', cursive;font-weight:bold;letter-spacing: 1.5px;color: rgb(11, 54, 1);font-size: 19px;border:2px solid black;border-radius:0px; padding:10px;">
+                            Lion Cub
+                        </b>
+                        <br>
+                      </div>
+                      <div>
+                        <p style="font-family: 'Bebas Neue', cursive;font-weight: 900; color:black;font-size: 20px;">RecogSmart is more accurate here.</p>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal" style="font-family: 'Lobster Two', cursive;font-weight:bolder;">Close</button>
+                      </div>
+                    </div>
+                    </div>
+                    
+                  </div>
+                </div>
+              </div>
+              <br> <br>
+              <div class="container">
+                <h2>Test Item 6</h2>
+                <div class="preview" style="color: black;">
+                    <img src="cake.jpg" alt="Snow">
+                    <br> <br>
+                    <button type="button" class="btn btn-default" data-toggle="modal" data-target="#modal6" >Expand</button>
+                  </div>
+                
+                <div class="modal fade" id="modal6" role="dialog">
+                  <div class="modal-dialog">
+                  
+                    
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title" style="font-size: 25px;font-family: 'Reggae One', cursive;color: blue;">Test Item 6: </h4>
+                      </div>
+                      &nbsp;
+                      <div class="modal-img">
+                            <img src="cake.jpg">
+                      </div>
+                      &nbsp;
+                      
+                      <div class="contents">
+                      <div class="modal-body">
+                        <p style="font-size: 20px;font-family: 'Days One', sans-serif; color: rgb(9, 252, 240);">Wolfram Alpha Prediction:</p>
+                        
+                        <br>
+                        <b style="font-family: 'Special Elite', cursive;font-weight:bold;letter-spacing: 1.5px; color: rgb(11, 54, 1);font-size: 19px;border:2px solid black;border-radius:0px; padding:10px;">
+                          Chocolate truffle Cake
+                        </b>
+                      </div>
+                      
+                      <div class="modal-body">
+                        <p style="font-size: 20px;font-family: 'Days One', sans-serif; color: rgb(9, 252, 240);">RecogSmart Prediction:</p>
+                        <br>
+                        <b style="font-family: 'Special Elite', cursive;font-weight:bold;letter-spacing: 1.5px;color: rgb(11, 54, 1);font-size: 19px;border:2px solid black;border-radius:0px; padding:10px;">
+                            Cake
+                        </b>
+                        <br>
+                      </div>
+                      <div>
+                        <p style="font-family: 'Bebas Neue', cursive;font-weight: 900; color:black;font-size: 20px;">Wolfram Alpha is more accurate here.</p>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal" style="font-family: 'Lobster Two', cursive;font-weight:bolder;">Close</button>
+                      </div>
+                    </div>
+                    </div>
+                    
+                  </div>
+                </div>
+              </div>
+              <br> <br>
+              <div class="container">
+                <h2>Test Item 7</h2>
+                <div class="preview" style="color: black;">
+                    <img src="pillow.jpg" alt="Snow">
+                    <br> <br>
+                    <button type="button" class="btn btn-default" data-toggle="modal" data-target="#modal7" >Expand</button>
+                  </div>
+                
+                <div class="modal fade" id="modal7" role="dialog">
+                  <div class="modal-dialog">
+                  
+                    
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title" style="font-size: 25px;font-family: 'Reggae One', cursive;color: blue;">Test Item 7: </h4>
+                      </div>
+                      &nbsp;
+                      <div class="modal-img">
+                            <img src="pillow.jpg">
+                      </div>
+                      &nbsp;
+                      
+                      <div class="contents">
+                      <div class="modal-body">
+                        <p style="font-size: 20px;font-family: 'Days One', sans-serif; color: rgb(9, 252, 240);">Wolfram Alpha Prediction:</p>
+                        
+                        <br>
+                        <b style="font-family: 'Special Elite', cursive;font-weight:bold;letter-spacing: 1.5px; color: rgb(11, 54, 1);font-size: 19px;border:2px solid black;border-radius:0px; padding:10px;">
+                          Seat
+                        </b>
+                      </div>
+                      
+                      <div class="modal-body">
+                        <p style="font-size: 20px;font-family: 'Days One', sans-serif; color: rgb(9, 252, 240);">RecogSmart Prediction:</p>
+                        <br>
+                        <b style="font-family: 'Special Elite', cursive;font-weight:bold;letter-spacing: 1.5px;color: rgb(11, 54, 1);font-size: 19px;border:2px solid black;border-radius:0px; padding:10px;">
+                            Pillow
+                        </b>
+                        <br>
+                      </div>
+                      <div>
+                        <p style="font-family: 'Bebas Neue', cursive;font-weight: 900; color:black;font-size: 20px;">Wolfram Alpha is more accurate here.</p>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal" style="font-family: 'Lobster Two', cursive;font-weight:bolder;">Close</button>
+                      </div>
+                    </div>
+                    </div>
+                    
+                  </div>
+                </div>
+              </div>
+              <br> <br>
+                            <h4 id="conclusion" style="box-shadow: 5px 5px 18px rgb(92, 91, 91);letter-spacing: 2px;background: #F2BAC9;border-radius: 20px;padding: 20px;border:2px solid grey; width:50%; font-family: 'Righteous', cursive; color: black;">
+                I have tested 7 images.<br>
+                 <b>RecogSmart</b> has predicted 4 of them correctly. And <b>Wolfram Alpha</b> has predicted 3 of them correctly. <br>
+                 So according to my case study <b>RecogSmart</b> is more accurate and should be used for image identification.</h4>
+              <br> <br>
+              </div>
+              <div class="copy_right_footer">
+                Developed by - Tanishka from WhiteHat Jr.
+              </div>
+
+
+        </center>
+    </body>
+</html>
